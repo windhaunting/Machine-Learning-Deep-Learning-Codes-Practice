@@ -50,7 +50,7 @@ class LogisticRegression:
             #Gradient descent
             y_hat = self.sigmoid(dot(X, weights))
             
-            # update weight with GD  # with stochastic gradient descent
+            # update weight with GD  # with  gradient descent
             weights -= lr * dot(X.T, y_hat -y)/ N
             
             # save the loss
