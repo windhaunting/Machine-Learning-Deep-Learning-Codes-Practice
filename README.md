@@ -2,10 +2,15 @@
 
 Common classifications and regression, and Statistics 
 
-Langugage:
-Python
+## Langugage:
 
-Library:
+Python3
+
+## Library:
+
 Numpy
+
+Pandas
+
 Pytorch
 
