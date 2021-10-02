@@ -1,4 +1,11 @@
-# Machine Learning Codes From Scratch
-Common classifications and regression codes
+# Machine Learning and Deep Learning Practice From Scratch
 
-I write them from scratch with Python and Numpy
+Common classifications and regression, and Statistics 
+
+Langugage:
+Python
+
+Library:
+Numpy
+Pytorch
+
