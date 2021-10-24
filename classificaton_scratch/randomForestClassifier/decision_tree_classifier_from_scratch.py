@@ -6,15 +6,14 @@ Created on Fri May 22 09:46:52 2020
 @author: fubao
 """
 
-#
 # decision tree implementing from stratch
+# tree is contructed with binary tree
+# each value in a feature as a threshold to find the best split
+#  binary classifier 
 
-#  binary classifier
 
 # https://machinelearningmastery.com/implement-decision-tree-algorithm-scratch-python/
 # https://towardsdatascience.com/decision-tree-from-scratch-in-python-46e99dfea775
-
-
 
 
 # CART on the Bank Note dataset
@@ -111,7 +110,7 @@ def test_split(index, value, dataset):
 	return left, right
 
 
-# Select the best split point for a dataset; find which attribut as root first, b_value as threshold
+# Select the best split point for a dataset; find which attribut as root first, b_value as threshold, each value in a feature as threshold
 def get_split(dataset):
 	class_values = list(set(row[-1] for row in dataset))
 	b_index, b_value, b_score, b_groups = 999, 999, 999, None
