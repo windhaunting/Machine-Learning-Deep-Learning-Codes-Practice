@@ -10,7 +10,7 @@ Maximum Likelihood Estimation
 
 ### Potential solution hint:
 
-There are N observations from a population assuming being drawn from a Gaussian distribution. The population distribution is assumed to be normal distribution $\mu_0$ and $\sigma_0$, that has the probability density function for a given value $x_i$.
+There are N observations from a population assuming being drawn from a Gaussian distribution. The population distribution is assumed to be normal distribution $\mu_0$ and $\sigma_0^2$, that has the probability density function for a given value $x_i$.
 
 $$f(x_i) = \frac{1}{\sigma_{0}\sqrt{2\pi}}e^{-\frac{1}{2}(\frac{x_i-\mu_{0}}{\sigma_{0}})^2}$$
 
@@ -29,7 +29,7 @@ $$f(x_1, x_2,...,x_N|\mu,\sigma^2) = f(x_1|\mu,\sigma^2) \cdot f(x_2|\mu,\sigma)
 
 then we need to obtain the paramters to maximize the likelihood,
 
-$ \hat{\theta}_{MLE} = argmax_{\theta}\prod_{i}^{N}f(x_i|\theta) $.  
+$$ \hat{\theta}_{MLE} = argmax_{\theta}\prod_{i}^{N}f(x_i|\theta) $$ .  
 Here $\theta$ indicates the parameter $\mu$ and $\sigma^2$.
 
 Usually we use log to get the log likelihood and maximize it, so we have the maximum (log) likelihood estimation.
@@ -45,6 +45,8 @@ $$ L(\mu, \sigma^2; x_1, x_2,...,x_N) = -\frac{N}{2}log(2\pi) - \frac{N}{2}log(\
 and use gradient method to do first order derivative on $\mu$ and $\theta^2$, then we obtain the parameters estimated.
 
 $$ \hat{\mu_0} = \frac{1}{N}\sum_{i=1}^{N}x_i $$ 
+
+$$ \hat{\sigma^2_0} = \frac{1}{N}\sum_{i=1}^{N}(x_i - \hat{\mu})^2 $$
 
 
 Ref: https://www.statlect.com/fundamentals-of-statistics/normal-distribution-maximum-likelihood
