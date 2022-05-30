@@ -34,5 +34,6 @@ Here $\theta$ indicates the parameter $\mu$ and $\sigma$.
 
 Usually we use log to get the log likelihood and maximize it, so we have the maximum (log) likelihood estimation.
 
+$$ log\prod_{i}^{}f(x_i|\theta) = \sum_{i}^{N}logf(x_i|\theta) $$
 
 Ref: https://www.statlect.com/fundamentals-of-statistics/normal-distribution-maximum-likelihood
