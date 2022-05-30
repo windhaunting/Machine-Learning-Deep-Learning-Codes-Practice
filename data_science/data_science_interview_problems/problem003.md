@@ -28,7 +28,7 @@ For $N$ sample, we get the probablity denstiy as the likelihood function,
 $$f(x_1, x_2,...,x_N|\mu,\sigma) = f(x_1|\mu,\sigma) \cdot f(x_2|\mu,\sigma)\cdot ... \cdot f(x_N|\mu,\sigma) = \prod_{i}^{N}f(x_i|\mu, \sigma)$$
 
 then we need to obtain the paramters to maximize the likelihood,
-$$\hat{\theta}_{MLE} = argmax_{\theta}\prod_{i}^{N}f(x_i|\theta)$$
+$\hat{\theta}_{MLE} = argmax_{\theta}\prod_{i}^{N}f(x_i|\theta)$
 
 Usually we use log to get the log likelihood and maximize it, so we have the maximum (log) likelihood estimation.
 
