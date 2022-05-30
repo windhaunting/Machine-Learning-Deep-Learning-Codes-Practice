@@ -10,9 +10,11 @@ Maximum Likelihood Estimation
 
 ### Potential solution hint:
 
-There are N observations from a population assuming being drawn from a Gaussian distribution. The population distribution is assumed to be normal distribution $\mu_0$ and $\sigma_0$
+There are N observations from a population assuming being drawn from a Gaussian distribution. The population distribution is assumed to be normal distribution $\mu_0$ and $\sigma_0$, that has the probability density function for a given value $x_i$.
 
 $$f(x_i) = \frac{1}{\sigma_{0}\sqrt{2\pi}}e^{-\frac{1}{2}(\frac{x_i-\mu_{0}}{\sigma_{0}})^2}$$
+
+$\mu_0$ and $\sigma_0$ are the parameters to be estimated.
 
 
 
