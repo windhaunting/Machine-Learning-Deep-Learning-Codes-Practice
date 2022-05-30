@@ -35,5 +35,13 @@ Here $\theta$ indicates the parameter $\mu$ and $\sigma$.
 Usually we use log to get the log likelihood and maximize it, so we have the maximum (log) likelihood estimation.
 
 $$ log\prod_{i}^{}f(x_i|\theta) = \sum_{i}^{N}logf(x_i|\theta) $$
+Then we need to get the parameter to maximize it.
+
+We place $f(x_i)$ into the log likelihood
+we could obtain 
+
+$$ L(\mu, \sigma; x_1, x_2,...,x_N) = -\frac{N}{2}log(2\pi) - \frac{N}{2}log(\sigma^2) - \frac{1}{2\sigma^2}\sum_{i=1}^{N}(x_i-\mu)^2 $$
+
+and use gradient method on $\mu$ and $\theta$,
 
 Ref: https://www.statlect.com/fundamentals-of-statistics/normal-distribution-maximum-likelihood
