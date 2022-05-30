@@ -24,4 +24,7 @@ $\mu_0$ and $\sigma_0$ are the parameters to be estimated for our data so that w
 * Data must be identically distributed.
 
 
+For $N$ sample, we get the probablity denstiy 
+$$f(x_1, x_2,...,x_N|\mu,\sigma) = f(x_1|\mu,\sigma) \cdot f(x_2|\mu,\sigma)\cdot ... \cdot f(x_N|\mu,\sigma) = \prod_{N}^{i}f(x_i|\mu, \sigma)$$
+
 Ref: https://www.statlect.com/fundamentals-of-statistics/normal-distribution-maximum-likelihood
