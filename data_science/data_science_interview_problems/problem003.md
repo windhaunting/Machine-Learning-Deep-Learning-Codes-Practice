@@ -25,6 +25,11 @@ $\mu_0$ and $\sigma_0$ are the parameters to be estimated for our data so that w
 
 
 For $N$ sample, we get the probablity denstiy 
-$$f(x_1, x_2,...,x_N|\mu,\sigma) = f(x_1|\mu,\sigma) \cdot f(x_2|\mu,\sigma)\cdot ... \cdot f(x_N|\mu,\sigma) = \prod_{N}^{i}f(x_i|\mu, \sigma)$$
+$$f(x_1, x_2,...,x_N|\mu,\sigma) = f(x_1|\mu,\sigma) \cdot f(x_2|\mu,\sigma)\cdot ... \cdot f(x_N|\mu,\sigma) = \prod_{i}^{N}f(x_i|\mu, \sigma)$$
+
+then we need to obtain the paramters to maximize 
+
+$$\hat{\mu, \sigma}_{MLE}= argmax_{\theta}\prod_{N}^{i}f(x_i|\mu, \sigma)$$
+
 
 Ref: https://www.statlect.com/fundamentals-of-statistics/normal-distribution-maximum-likelihood
