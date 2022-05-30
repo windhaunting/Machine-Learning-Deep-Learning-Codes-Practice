@@ -31,7 +31,6 @@ then we need to obtain the paramters to maximize the likelihood,
 
 $$ \hat{\theta}_{MLE} = argmax_{\theta}\prod_{i}^{N}f(x_i|\theta) = aaa $$
 
-
 Usually we use log to get the log likelihood and maximize it, so we have the maximum (log) likelihood estimation.
 
 
