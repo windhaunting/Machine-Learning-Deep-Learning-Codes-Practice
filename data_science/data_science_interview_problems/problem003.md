@@ -42,7 +42,7 @@ we could obtain
 
 $$ L(\mu, \sigma^2; x_1, x_2,...,x_N) = -\frac{N}{2}log(2\pi) - \frac{N}{2}log(\sigma^2) - \frac{1}{2\sigma^2}\sum_{i=1}^{N}(x_i-\mu)^2 $$
 
-and use gradient method to do first order derivative on $\mu$ and $\theta^2$, then we obtain the parameters estimated.
+and use gradient method to do first order derivative on $\mu$ and $\theta^2$ to make it equal to 0, then we obtain the parameters estimated.
 
 $$ \hat{\mu_0} = \frac{1}{N}\sum_{i=1}^{N}x_i $$ 
 
