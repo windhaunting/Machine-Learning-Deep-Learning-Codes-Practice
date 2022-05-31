@@ -59,4 +59,4 @@ Those cases are the sum of 12. There are total 22,  16 out of are different D1, 
 
 
 
-$$ P(S=12|D1, D2, D3 \; different) = \frac{P(D1, D2, D3 \; different|S=12) P(S=12)}{P(D1, D2, D3 \; different)} = \frac{16/22 * 22/(6^3)}{6!/(6^3)} = 13.33\% $$
+$$ P(S=12|D1, D2, D3  different) = \frac{P(D1, D2, D3 \; different|S=12) P(S=12)}{P(D1, D2, D3 \; different)} = \frac{16/22 * 22/(6^3)}{6!/(6^3)} = 13.33\% $$
