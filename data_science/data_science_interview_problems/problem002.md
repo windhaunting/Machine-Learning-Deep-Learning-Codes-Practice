@@ -3,10 +3,10 @@
 Say you have two countries of interest and want to compare variances of clicking behavior from users (i.e. total distribution of clicks). How would you do this comparison, and what assumptions need to be met?
 
 
-## Knowledge points: 
+### Knowledge points: 
  Hypothesis testing
 
-## Potential solution hint:
+### Potential solution hint:
 
 
 We consider two countries A, B.  We get a statistics of clicks in a period of 1 month in A, and the same in B.
