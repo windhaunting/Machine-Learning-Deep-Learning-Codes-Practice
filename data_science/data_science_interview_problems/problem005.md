@@ -21,7 +21,13 @@ The prob of this is that
 
 Then we got the expected number 
 
-$$ E(Y) = \sum_{k=2}^{n}k \cdot P(Y=k)=\sum_{k=2}^{n} k \cdot (k-1)(1-p)^{k-2}p^{2} = \sum_{k=2}^{n} k(k-1)(1-p)^{k-2}p^{2} $$
+$$ E(Y) = \sum_{k=2}^{n}k \cdot P(Y=k)=\sum_{k=2}^{n} k \cdot (k-1)(1-p)^{k-2}p^{2} = \sum_{k=2}^{n} k(k-1)(1-p)^{k-2}p^{2} = p^{2} \sum_{k=2}^{n} k(k-1)(1-p)^{k-2}$$
+
+To solve this.
+Let $ q = 1 - p $, 
+we have 
+$$ p^{2} \sum_{k=2}^{n} k(k-1)(1-p)^{k-2} = (1-q)^{2} \sum_{k=2}^{n} k(k-1)q^{k-2} $$
+
 
 Other question reference:
 
