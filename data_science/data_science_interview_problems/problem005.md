@@ -17,8 +17,7 @@ $ p = \frac{1}{6} $
 
 Then it means the given number appears second again at kth times of roll before after (k-1)th of times try.
 The prob of this is that
- $$ p(Y = k) = \binom{k-1}{1}p^1(1-p)^{k-2}p^{1} = (k-1)(1-p)^{k-2}p^{2}
- $$
+ $$ p(Y = k) = \binom{k-1}{1}p^1(1-p)^{k-2}p^{1} = (k-1)(1-p)^{k-2}p^{2}$$
 
 Then we got the expected number 
 
