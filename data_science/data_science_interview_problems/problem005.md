@@ -28,7 +28,7 @@ Let $ q = 1 - p $,
 we have 
 $$ p^{2} \sum_{k=2}^{n} k(k-1)(1-p)^{k-2} = (1-q)^{2} \sum_{k=2}^{n} k(k-1)q^{k-2} $$
 
-Because $  q^{k} = \int \int  k(k-1)q^{k-2} dqdq $, we could get
+Because $  \frac{\partial^2 }{\partial q^2}q^{k} =  k(k-1)q^{k-2} $, we could get
 
 Other question reference:
 
