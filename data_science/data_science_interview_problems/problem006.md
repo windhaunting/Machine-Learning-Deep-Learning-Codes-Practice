@@ -1,0 +1,13 @@
+# Problem
+
+Say that the lifetime of electric vehicles are modeled using a Gaussian distribution. Each type of electric vehicle has an expected lifetime and a lifetime variance. Say you chose two different types of electric vehicles at random. What is the probability that the two lifetimes will be within n time units?
+
+### Knowledge point
+Probability, Normal Distribution
+
+
+### Potential solution hint:
+
+Generally, if $X_i$ ($i = 1,2,..,n$) are independent normal random variables with means $\mu_i$ and variances $\sigma_i$, and $c_i$ ($i = 1,2,..,n$) are constants, $Y=c_1X_1 + c_2X_2 +,..., + c_nX_n$ is normal with mean $\mu_Y=c_1\mu_1 +... = c_n\mu_n$ and variance $c_1^2\sigmu_1^2+...+c_n^2\sigmu_n^2$.
+
+
