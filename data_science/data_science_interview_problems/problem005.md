@@ -8,14 +8,14 @@ Probability, Geometric Distribution
 
 ### Potential solution hint:
 
-If I understand correctly, the question is to ask how many times of rolls needed on average for the same given number appearing again. It should be the same answer for any number between 1 and 6. 
+I think he question is to ask how many times of rolls needed on average for the same given number appearing again. It should be the same answer for any number between 1 and 6. 
 e.g. if the given number is 3, how many rolls needed on average to get 3 again.
 
 
 For each face from 1 to 6 in a fair dire, each has a 1/6 prob appearing in one roll.
 $ p = \frac{1}{6} $
 
-Then it means the given number appears second again at kth times of roll before after (k-1)th of times try.
+Then it means the given number appears the second time again at kth times of roll  after (k-1)th of times try.
 The prob of this is that
  $$ p(Y = k) = \binom{k-1}{1}p^1(1-p)^{k-2}p^{1} = (k-1)(1-p)^{k-2}p^{2}$$
 
