@@ -28,7 +28,10 @@ Let $ q = 1 - p $,
 we have 
 $$ p^{2} \sum_{k=2}^{n} k(k-1)(1-p)^{k-2} = (1-q)^{2} \sum_{k=2}^{n} k(k-1)q^{k-2} $$
 
-Because $  \frac{\partial^2 }{\partial q^2}q^{k} =  k(k-1)q^{k-2} $, we could get
+Because $ \frac{\partial^2 }{\partial q^2}q^{k} =  k(k-1)q^{k-2} $, we could get
+
+
+$$ \sum_{k=2}^{n}  \frac{\partial^2 }{\partial q^2}q^{k} = \frac{\partial^2 }{\partial q^2}\sum_{k=2}^{n} q^{k}  = \frac{\partial^2 }{\partial q^2} \frac{q^2(1-q^{n-1})}{1-q} = \frac{\partial^2 }{\partial q^2} \frac{q^2}{1-q} = \frac{2-4q+4q^2}{(1-q)^3}  $$
 
 Other question reference:
 
