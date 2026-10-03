@@ -14,7 +14,7 @@ Created on Fri Jul 16 23:29:10 2021
 #reference: https://towardsdatascience.com/logistic-regression-from-scratch-69db4f587e17
 
 #loss
-# y = 1/(1+e^z) z = wx + b
+# y = 1/(1+e^(-z)) z = wx + b
 #L = -ylog(y^) - (1-y)log(1-y^)         # y^ is the predicted value
 
 #dL/dw = x * (y-y^)
